@@ -20,6 +20,10 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
+    implementation("com.slack.api:bolt:1.26.1")
+    implementation("com.slack.api:bolt-servlet:1.26.1")
+    implementation("com.slack.api:bolt-jetty:1.26.1")
+    implementation("org.slf4j:slf4j-simple:1.7.36")
 }
 
 testing {
